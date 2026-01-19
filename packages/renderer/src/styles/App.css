@@ -46,7 +46,7 @@ body {
   font-weight: 500;
 }
 
-/* Card Container - Tinder Style */
+/* Card Container - Sweeply Style */
 .card-container {
   flex: 1;
   display: flex;
@@ -285,7 +285,7 @@ body {
   word-break: break-word;
 }
 
-/* Action Buttons - Tinder Style */
+/* Action Buttons - Sweeply Style */
 .action-buttons {
   display: flex;
   justify-content: center;

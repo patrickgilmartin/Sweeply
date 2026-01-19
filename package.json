@@ -1,7 +1,7 @@
 {
   "name": "tinder-clear",
   "version": "1.0.0",
-  "description": "Tinder-style media cleanup application for Windows",
+  "description": "Sweeply - Media cleanup application for Windows",
   "private": true,
   "workspaces": [
     "packages/*"

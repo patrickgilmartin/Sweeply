@@ -1,10 +1,10 @@
-# Media Cleanup - Tinder-Style File Organizer
+# Sweeply - Media File Organizer
 
-A modern application for cleaning up media files using a Tinder-like swipe interface. Available as both an **Electron desktop app** (Windows) and a **web application** (Chrome/Edge). Built with Electron, React, TypeScript, and modern web APIs.
+A modern application for cleaning up media files with an intuitive card-based interface. Available as both an **Electron desktop app** (Windows) and a **web application** (Chrome/Edge). Built with Electron, React, TypeScript, and modern web APIs.
 
 ## Features
 
-- **Tinder-like Interface**: Review one file at a time with large, centered preview
+- **Sweeply Interface**: Review one file at a time with large, centered preview
 - **Multiple Media Types**: Supports images, documents, PDFs, videos, and audio files
 - **Keep/Reject Actions**: 
   - Keep: Mark file as kept, leave it untouched

@@ -1,6 +1,6 @@
 # Media Cleanup Web Application
 
-Web application for media cleanup with Tinder-style UI.
+Web application for media cleanup with Sweeply UI.
 
 ## Features
 
@@ -8,7 +8,7 @@ Web application for media cleanup with Tinder-style UI.
 - IndexedDB for local data storage
 - User authentication
 - Cloud sync (metadata only)
-- Tinder-style media review interface
+- Sweeply card-based media review interface
 
 ## Development
 

@@ -11,7 +11,7 @@ This document outlines the UI/UX validation checklist for the Media Cleanup web 
 - ✅ Consistent spacing and padding
 - ✅ Modern color palette (dark background, accent colors)
 
-### 2. Tinder-style Card Interface
+### 2. Sweeply Card Interface
 - ✅ Large, centered media display (600px height)
 - ✅ Single file at a time
 - ✅ Prominent action buttons (Keep/Reject)
