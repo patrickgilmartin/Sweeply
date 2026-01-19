@@ -1,0 +1,35 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+*.db
+*.db-journal
+.vscode/
+.idea/
+packages/*/node_modules/
+packages/*/dist/
+data/
+*.exe
+*.dmg
+*.AppImage
+
+# Web app specific
+packages/web/.vitest/
+packages/web/coverage/
+packages/web/*.local
+
+# Test data (optional - remove if you want to track test files)
+test_data/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+build/
+out/
+
+# OS files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "name": "@tinder-clear/main",
+  "version": "1.0.0",
+  "description": "Electron main process",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc && tsc --project tsconfig.preload.json",
+    "start": "electron dist/main.js",
+    "start:prod": "electron dist/main.js",
+    "postinstall": "electron-rebuild -f -w better-sqlite3"
+  },
+  "dependencies": {
+    "@tinder-clear/shared": "*",
+    "better-sqlite3": "^9.2.2",
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "electron": "^27.0.0",
+    "electron-rebuild": "^3.2.9",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tinder-clear",
+  "version": "1.0.0",
+  "description": "Tinder-style media cleanup application for Windows",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=packages/renderer & npm run dev --workspace=packages/main",
+    "build": "npm run build --workspace=packages/shared && npm run build --workspace=packages/renderer && npm run build --workspace=packages/main",
+    "start": "npm run start --workspace=packages/main",
+    "package": "npm run build && electron-builder",
+    "clean": "rm -rf dist node_modules packages/*/node_modules packages/*/dist",
+    "dev:web": "npm run dev --workspace=packages/web",
+    "build:web": "npm run build --workspace=packages/shared && npm run build --workspace=packages/web"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4",
+    "typescript": "^5.3.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
